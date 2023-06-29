@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --DARK-BLUE-COLOR: rgba(1, 1, 48, 0.945);
+    --LIGHT-NAVY-BLUE-COLOR: rgb(0, 0, 85);
+    --WHITESMOKE-COLOR: rgba(219, 219, 219, 0.801);
+    --WHITE: #fff;
+    --BLACK: #000;
+    --BACKGROUND-COLOR: lightblue;
+    --TRANSPARENT-BG-COLOR: hsla(0, 0%, 0%, 0.1);
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.App {
+    min-height: 100vh;
+}
+
+.Layout {
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+        "nv mn mn mn mn"
+    ;
+}
+
+
+/* Start Nav Styling */
+
+#Nav {
+    background: var(--DARK-BLUE-COLOR);
+    grid-area: nv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+}
+
+#Nav h2 {
+    color: var(--WHITE);
+}
+
+#Nav #Navigation p {
+    margin: 1.5em;
+}
+
+#Nav #Navigation p a {
+    color: var(--WHITE);
+    text-decoration: none;
+}
+
+.SocialMedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* End Nav Styling */
+
+
+/* Start Main Styling */
+
+.Main {
+    grid-area: mn;
+    min-height: 100vh;
+    background: var(--BACKGROUND-COLOR);
+    background-image: url('https://plus.unsplash.com/premium_photo-1670659359753-788f29223c9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.Main .Outlet {
+    min-height: 100vh;
+    background-color: var(--TRANSPARENT-BG-COLOR);
+}
+
+/* .Outlet .FixedIcon {
+    display: none;
+} */
+
+.icon {
+    display: none;
+}
+
+/* End Main Styling */
+
+
+/* Start Home Styling */
+
+.HomeBackground {
+    background-color: var(--WHITESMOKE-COLOR);
+    background-image: url(./img/img1.jpg);
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    background-size: cover;
+}
+
+.Home {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--WHITESMOKE-COLOR);
+    text-shadow: 2px 2px 5px #000;
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.Home h1 {
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 0.em;
+}
+
+.Home h3 {
+    margin: 0.5rem;
+}
+
+/* End Home Styling */
+
+
+/* Start PageTitle styling */
+
+.PageTitle{
+    color: var(--LIGHT-NAVY-BLUE-COLOR);
+    margin-top: 2em;
+}
+
+/* End PageTitle Styling */
+
+
+/* Start About styling */
+
+.About {
+    padding: 1.5em;
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.About p {
+    text-align: justify;
+    border: 1px double var(--LIGHT-NAVY-BLUE-COLOR);
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: var(--WHITESMOKE-COLOR);
+    color: var(--BLACK);
+}
+
+.About h3 {
+    color: var(--LIGHT-NAVY-BLUE-COLOR);
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.About .PersonalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About ul {
+    list-style: none;
+} 
+
+.About .PersonalInfo ul {
+    margin: 2em;
+    margin-top: 0.5em;
+}
+
+.About .PersonalInfo li {
+    line-height: 2em;
+}
+
+.About .SkillsBar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.About a {
+    color: var(--LIGHT-NAVY-BLUE-COLOR);
+}
+
+.SkillsBar .Bar {
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+.Bar .ProgressLine {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background-color: var(--WHITE);    
+    border-radius: 10px;
+}
+
+.ProgressLine span {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: var(--LIGHT-NAVY-BLUE-COLOR);
+    border-radius: 10px;
+}
+
+.ProgressLine.html span {
+    width: 90%;
+} 
+
+.ProgressLine.css span {
+    width: 80%;
+} 
+
+.ProgressLine.javascript span {
+    width: 70%;
+} 
+
+.ProgressLine.mongodb span {
+    width: 60%;
+} 
+
+.ProgressLine.expressjs span {
+    width: 60%;
+} 
+
+.ProgressLine.reactjs span {
+    width: 70%;
+} 
+
+.ProgressLine.nodejs span {
+    width: 60%;
+} 
+
+.ProgressLine span::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-color: var(--DARK-BLUE-COLOR);
+}
+
+.ProgressLine span::after {
+    position: absolute;
+    content: "80%";
+    right: 0;
+    top: -35px;
+    color: var(--WHITESMOKE-COLOR);
+    background-color: var(--DARK-BLUE-COLOR);
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+
+.ProgressLine.html span::after {
+    content: "90%";
+} 
+
+.ProgressLine.css span::after {
+    content: "80%";
+} 
+
+.ProgressLine.javascript span::after {
+    content: "70%";
+} 
+
+.ProgressLine.mongodb span::after {
+    content: "60%";
+} 
+
+.ProgressLine.expressjs span::after {
+    content: "60%";
+} 
+
+.ProgressLine.reactjs span::after {
+    content: "70%";
+} 
+
+.ProgressLine.nodejs span::after {
+    content: "60%";
+} 
+
+/* End About styling */
+
+
+/* Start Services Styling */
+
+.Services {
+    padding: 1.5em;
+    padding-top: 3em;
+}
+
+.MyServices {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* .Product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 2em;
+    border: 1px double var(--DARK-BLUE-COLOR);
+    border-radius: 20px;
+    width: 25em;
+    height: 25em;
+    background-color: var(--DARK-BLUE-COLOR);
+    color: var(--WHITESMOKE-COLOR);    
+} */
+
+.Product {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;    
+    margin: 1.5em;
+    padding: 1em;
+    background: var(--WHITESMOKE-COLOR);
+}
+
+.IconDiv .ServicesIcons {
+    font-size: 2em;
+}
+
+.IconDiv .ResponsiveTitle {
+    display: none;
+}
+
+.ProductDescription {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 25em;
+    height: 25em;
+    padding-left: 1.5em;
+    padding-right: 2em;
+    /* background-color: var(--WHITESMOKE-COLOR); */
+    color: var(--DARK-BLUE-COLOR);
+    overflow-y: scroll;
+}
+
+.ProductDescription::-webkit-scrollbar {
+    display: none;
+}
+
+.ProductDescription .ServiceTitle {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+}
+
+.ProductDescription h3 {
+    padding-bottom: 1em;
+    text-decoration: underline;
+    font-weight: 900;
+    background: var(--WHITESMOKE-COLOR);
+    color: var(--DARK-BLUE-COLOR);
+}
+
+.ProductDescription p {
+    /* font-size: 1em; */
+    /* font-weight: 500; */
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+/* End Services Styling */
+
+
+/* Start Portfolio Styling */
+
+.Portfolio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Portfolio .PageTitle {
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
+.Portfolio .MyPortfolio {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row, wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyPortfolio p {
+    margin: 1em;
+    background-color: var(--DARK-BLUE-COLOR);
+    color: var(--WHITESMOKE-COLOR);
+    height: 15em;
+    width: 15em;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End Portfolio Styling */
+
+
+/* Start Contact Styling */
+
+.Contact {
+    padding: 1em;
+    padding-left: 0.7em;
+    padding-bottom: 2em;
+    /* padding-top: 3em; */
+}
+
+.MyContact {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.MyContact .ContactDetails {
+    min-height: 85vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: var(--DARK-BLUE-COLOR);
+    color: var(--WHITE);
+    border: 1px double var(--DARK-BLUE-COLOR);
+}
+
+.MyContact ul { 
+    list-style: none;
+}
+
+.MyContact ul li {
+    margin: 2em;
+    margin-bottom: 0;
+    text-align: start;
+}
+
+.MyContact .ContactDetails.Two form {
+    margin: 1em;
+}
+
+.ContactDetails.Two form p {
+    margin: 1em;
+}
+
+.ContactDetails.Two .Input {
+    width: 100%;
+}
+
+.ContactDetails.Two input {
+    padding: 0.5em;
+}
+
+.ContactDetails.Two textarea {
+    padding: 0.5rem;
+}
+
+.ContactDetails.Two button {
+    background-color: var(--WHITESMOKE-COLOR);
+    color: var(--DARK-BLUE-COLOR);
+    margin-left: 2em;
+    padding: 1em;
+    font-size: 1em;
+    border: none;
+    border-radius: 0.3em;
+}
+
+/* End Contact Styling */
+
+
+/* Start Responsive Design */
+
+@media screen and (max-width: 970px) {
+    body {
+        font-size: 0.9em;
+    }
+    #Nav{
+        width: 80%;
+    }
+    .Nav {
+        background: var(--DARK-BLUE-COLOR);
+        /* grid-area: nv; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+        padding: 3em;
+        position: fixed;
+        left: 0;
+        height: 100%;
+        width: 80%;
+        color: var(--WHITE);
+        z-index: 1;
+    }
+    .Nav .icon {
+        display: block;
+        position: fixed;
+        top: 1em;
+        left: 1em;
+        font-size: 2em;
+        color: var(--WHITESMOKE-COLOR);
+    }
+    .Main {
+        left: 0;
+    }
+    .Main .Outlet .FixedIcon {
+        position: fixed;
+        background: var(--BACKGROUND-COLOR);
+        top: 0;
+        width: 100%;
+        height: 4em;
+        margin-bottom: 5em;
+        scroll-margin-top: 1em;
+        z-index: 2;
+    }
+    .Main .Outlet .FixedIcon .icon{
+        display: block;
+        padding: 0.5em;
+        font-size: 2em;
+        color: var(--LIGHT-NAVY-BLUE-COLOR);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Product {
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
+    .ProductDescription {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ProductDescription .ServiceTitle {
+        display: none;
+    }
+    .IconDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .IconDiv .ServicesIcons {
+        margin-bottom: 0.5em;
+    }
+    .IconDiv .ResponsiveTitle {
+        display: block;
+        text-decoration: underline;
+    }
+    .ProductDescription p {
+        padding-top: 5em;
+    }
+    .Contact .PageTitle.Contact {
+        margin-bottom: 1em;
+    }
+    .MyContact {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+    .MyContact .ContactDetails {
+        min-height: 30vh;
+        width: 80%;
+    }
+    .MyContact .ContactDetails.One {
+        padding-bottom: 1em;
+    }
+    .ContactDetails.Two .Input {
+        width: 100%;
+    }
+    .ContactDetails.Two textarea {
+        width: 100%;
+    }
+    /* .MyContact .ContactDetails.Two {
+        bottom: 0.5em;
+    } */
+}
+
+@media screen and (max-width: 450px) {
+    .PageTitle.Skills {
+        font-size: 1em;
+    }
+    .About .PersonalInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .About p {
+        text-align: justify;
+        border: 1px double var(--WHITESMOKE-COLOR);
+        border-radius: 20px;
+        padding: 1em;
+        margin-top: 1em;
+        background-color: var(--WHITESMOKE-COLOR);
+        color: black;
+        font-size: 0.8em;
+    }
+    .About h3 {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+    .About .PersonalInfo {
+        background: var(--WHITESMOKE-COLOR);
+        border: 1px double var(--LIGHT-NAVY-BLUE-COLOR);
+        border-radius: 20px;
+        margin-bottom: 1em;
+    }
+    .MyContact .ContactDetails {
+        width: 90%;
+    }
+    .ContactDetails.Two .Input {
+        width: 100%;
+        background-color: #fff;
+        color: #000;
+        caret-color: #000;
+    }
+    .ContactDetails.Two textarea {
+        width: 100%;
+        background-color: #fff;
+        color: #000;
+        caret-color: #000;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .Home {
+        font-size: 0.7em;
+    }
+    .Product {
+        width: 99%;
+    }
+    .ProductDescription p {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+

@@ -1,0 +1,97 @@
+REACT ICONS FOR SOFTWARE DEVELOPMENT 
+
+FaCode - Represents code or programming.
+FaLaptopCode - Depicts coding or development related to laptops or computers.
+FaFileCode - Indicates coding or development related to files.
+FaTerminal - Represents a command-line interface or terminal.
+FaDatabase - Depicts a database or data storage.
+FaCodeBranch - Represents branching or version control systems like Git.
+FaServer - Indicates server-related development.
+FaBug - Represents debugging or bug fixing.
+FaCog - Depicts configuration or settings.
+FaCogs - Represents configuration or system settings involving multiple components.
+
+REACT ICONS FOR WEB DEVELOPMENT
+
+FaHtml5 - Represents HTML, the markup language used for building web pages.
+FaCss3 - Depicts CSS, the style sheet language used for styling web pages.
+FaJs - Represents JavaScript, the programming language used for adding interactivity to web pages.
+FaReact - Represents React, a popular JavaScript library for building user interfaces.
+FaNode - Indicates Node.js, a JavaScript runtime environment used for server-side development.
+FaServer - Depicts server-related development, often used in the context of web development.
+FaDatabase - Represents a database or data storage used in web applications.
+FaCode - Indicates code or programming, commonly used in web development.
+FaCodeBranch - Represents branching or version control systems like Git, often used in web development teams.
+FaLaptopCode - Depicts coding or development related to laptops or computers, commonly used in web development.
+
+REACT ICONS FOR FRONTEND DEVELOPMENT
+
+FaHtml5 - Represents HTML, the markup language used for building web pages.
+FaCss3 - Depicts CSS, the style sheet language used for styling web pages.
+FaJs - Represents JavaScript, the programming language used for adding interactivity to web pages.
+FaReact - Represents React, a popular JavaScript library for building user interfaces.
+FaVuejs - Represents Vue.js, a progressive JavaScript framework for building user interfaces.
+FaAngular - Depicts Angular, a TypeScript-based open-source framework for building web applications.
+FaSass - Represents Sass, a CSS extension language that adds features and enhances CSS capabilities.
+FaBootstrap - Indicates Bootstrap, a popular CSS framework for building responsive and mobile-first web projects.
+FaCode - Represents code or programming, commonly used in frontend development.
+FaLaptopCode - Depicts coding or development related to laptops or computers, commonly used in frontend development.
+
+REACT ICONS FOR BACKEND DEVELOPMENT
+
+FaServer - Represents server-related development, commonly used in backend development.
+FaDatabase - Depicts a database or data storage used in backend development.
+FaCode - Indicates code or programming, commonly used in backend development.
+FaCodeBranch - Represents branching or version control systems like Git, often used in backend development teams.
+FaNode - Represents Node.js, a JavaScript runtime environment used for server-side development.
+FaPhp - Depicts PHP, a popular server-side scripting language used for web development.
+FaPython - Represents Python, a versatile programming language commonly used in backend development.
+FaJava - Indicates Java, a widely used programming language for backend development.
+FaCSharp - Represents C#, a programming language commonly used in backend development with Microsoft technologies.
+FaDocker - Depicts Docker, a platform for containerization commonly used in backend development for deployment and scalability.
+
+REACT ICONS FOR FULLSTACK DEVELOPMENT
+
+FaServer - Represents server-related development, commonly used in full stack development.
+FaDatabase - Depicts a database or data storage used in full stack development.
+FaCode - Indicates code or programming, commonly used in full stack development.
+FaCodeBranch - Represents branching or version control systems like Git, often used in full stack development teams.
+FaHtml5 - Represents HTML, the markup language used for building web pages.
+FaCss3 - Depicts CSS, the style sheet language used for styling web pages.
+FaJs - Represents JavaScript, the programming language used for adding interactivity to web pages.
+FaReact - Represents React, a popular JavaScript library for building user interfaces.
+FaNode - Represents Node.js, a JavaScript runtime environment used for server-side development.
+FaDatabase - Indicates database-related development, often used in full stack development.
+
+REACT ICONS FOR CODING & PROGRAMMING
+
+FaCode - Represents code or programming.
+FaFileCode - Depicts code files.
+FaTerminal - Represents a command-line interface or terminal.
+FaKeyboard - Depicts a keyboard, often associated with typing code.
+FaCog - Indicates configuration or settings, commonly used in coding environments.
+FaBug - Represents debugging or bug fixing.
+FaQuestion - Depicts a question mark, often used to represent seeking help or troubleshooting.
+FaPlay - Indicates running or executing code.
+FaPause - Depicts pausing or stopping code execution.
+FaTools - Represents coding tools or development environments.
+FaLaptopCode - Represents coding or development related to laptops or computers.
+FaCogs - Represents multiple components or modules working together, often used in programming contexts.
+FaCodeBranch - Represents branching or version control systems like Git, commonly used in programming teams.
+FaDatabase - Indicates database-related programming or data storage.
+FaCodepen - Depicts CodePen, an online code editor and community platform for programming.
+FaToolbox - Represents coding tools or programming resources.
+
+
+REACT ICONS FOR DATABASES AND DATABASE DEVELOPMENT
+
+FaDatabase - Represents a database or data storage.
+FaTable - Depicts a database table, often used to represent the structure of a database.
+FaColumns - Indicates columns or fields within a database table.
+FaKey - Represents a primary key or a unique identifier in a database.
+FaServer - Depicts server-related development, often used in the context of databases.
+FaCode - Indicates code or programming related to database development.
+FaDownload - Represents data import or extraction, often used in database operations.
+FaUpload - Indicates data export or loading into a database.
+FaSync - Represents data synchronization or replication between databases.
+FaCogs - Depicts configuration or system settings involving databases.

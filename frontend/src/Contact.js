@@ -24,6 +24,7 @@ const Contact = () => {
       setSubject('');
       setMessage('');
     } catch (error) {
+      console.error(error)
       toast.error('Failed to send email.');
     }
   };

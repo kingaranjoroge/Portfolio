@@ -14,8 +14,8 @@ app.use(cors())
 app.use(express.json())
 
 
-app.use('/send-email', require('./routes/sendEmailRoute'))
-app.use('/store-user-details', require('./routes/storeUserDetailsRoute'))
+app.use('/email', require('./routes/emailRoute'))
+app.use('/users', require('./routes/usersRoute'))
 
 
 mongoose.connection.once('open', () => {

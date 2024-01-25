@@ -5,7 +5,7 @@ const About = () => {
     <article className='About'>
       <h2 className='PageTitle'>About</h2>
       <p>
-        As a computer science undergraduate, I have been exposed to a variety of programming languages such as C, C++, Java, and JavaScript. However, my passion lies in JavaScript and I have become quite skilled in this language. I am also proficient in HTML and CSS, which makes me a well-rounded web developer. Currently, I am learning MERN Technologies (MongoDB, ExpressJS, ReactJS, NodeJS) to specialize as a MERN Stack Developer. I am a fast learner and enjoy staying up-to-date with new technologies. I love developing websites and can create websites for commercial purposes. With my skills in programming, website development, and my ability to quickly learn new technologies, I am a great candidate for any organization looking for a competent web developer.
+        As a computer science graduate, I have been exposed to a variety of programming languages such as C, C++, Java, and JavaScript. However, my passion lies in JavaScript and I have become quite skilled in this language. I am also proficient in HTML and CSS, which makes me a well-rounded web developer. I am well versed in MERN Stack technologies (MongoDB, ExpressJS, ReactJS, NodeJS) which are used together to create powerful web applications. I enjoy staying up-to-date with new technologies. I love developing websites. With my skills in programming, website development, and my ability to quickly learn new technologies, I am a great candidate for any freelance project you have in your mind!
       </p>
       <img src="" alt="" />
       <h3>Web Developer, MERN Stack Developer, JavaScript Developer</h3>

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
@@ -84,10 +88,10 @@ body {
     grid-area: mn;
     min-height: 100vh;
     background: var(--BACKGROUND-COLOR);
-    background-image: url('https://plus.unsplash.com/premium_photo-1670659359753-788f29223c9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+    /* background-image: url('https://plus.unsplash.com/premium_photo-1670659359753-788f29223c9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     position: fixed;
     top: 0;
     left: 20%;
@@ -114,13 +118,13 @@ body {
 
 /* Start Home Styling */
 
-.HomeBackground {
-    background-color: var(--WHITESMOKE-COLOR);
+/* .HomeBackground {
+    background-color: var(--WHITESMOKE-COLOR); 
     background-image: url(./img/img1.jpg);
     background-repeat: no-repeat;
-    /* background-position: top; */
+    background-position: top;
     background-size: cover;
-}
+} */
 
 .Home {
     min-height: 100vh;
@@ -128,9 +132,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: var(--WHITESMOKE-COLOR);
-    text-shadow: 2px 2px 5px #000;
-    background-color: hsla(0, 0%, 0%, 0.5);
+    /* color: var(--WHITESMOKE-COLOR); */
+    /* text-shadow: 2px 2px 5px #000; */
+    /* background-color: hsla(0, 0%, 0%, 0.5); */
 }
 
 .Home h1 {

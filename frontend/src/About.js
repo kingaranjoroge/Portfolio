@@ -3,13 +3,19 @@ import React from 'react'
 const About = () => {
   return (    
     <article className='About'>
-      <h2 className='PageTitle'>About</h2>
+      <h2 className='PageTitle text-xl font-bold text'>About</h2>
       <p>
-        As a computer science graduate, I have been exposed to a variety of programming languages such as C, C++, Java, and JavaScript. However, my passion lies in JavaScript and I have become quite skilled in this language. I am also proficient in HTML and CSS, which makes me a well-rounded web developer. I am well versed in MERN Stack technologies (MongoDB, ExpressJS, ReactJS, NodeJS) which are used together to create powerful web applications. I enjoy staying up-to-date with new technologies. I love developing websites. With my skills in programming, website development, and my ability to quickly learn new technologies, I am a great candidate for any freelance project you have in your mind!
+        Welcome to my world of web development mastery! As a full-stack web developer, I craft immersive digital experiences using cutting-edge technologies. Harnessing the power of React.js, Next.js, and TailwindCSS, I sculpt dynamic and responsive front-end interfaces that captivate and engage users. 
+        <br />
+        <br />
+        On the backend, I leverage the robust capabilities of Node.js, Express.js, and Nest.js to architect scalable and efficient systems that power my applications. With MongoDB as my database of choice, coupled with the flexibility of Mongoose as the ORM, I seamlessly manage data with precision and speed.
+        <br />
+        <br />
+        Every project I undertake is infused with creativity, functionality, and a relentless pursuit of excellence. Let's collaborate to bring your vision to life and elevate your digital presence to new heights.
       </p>
       <img src="" alt="" />
-      <h3>Web Developer, MERN Stack Developer, JavaScript Developer</h3>
-      <section className="PersonalInfo">
+      <h3 className='font-semibold pt-2'>Full Stack Web Developer, JavaScript Developer, TypeScript Developer</h3>
+      <section className="PersonalInfo pt-2">
         <ul>
           <li><strong>Name:</strong> Brian Njoroge</li>
           <li><strong>Website:</strong> <a href="https://kingaranjoroge.netlify.app/">kingaranjoroge.netlify.app</a></li>
@@ -19,7 +25,7 @@ const About = () => {
         <ul>
           <li><strong>City:</strong> Nairobi, Kenya</li>
           <li><strong>Github:</strong> <a href="https://github.com/kingaranjoroge">github.com/kingaranjoroge</a></li>
-          <li><strong>Degree:</strong> Bsc.Computer Science</li>
+          <li><strong>Degree:</strong> Bsc. Applied Computer Science</li>
           <li><strong>Freelance:</strong> Available</li>
         </ul>
       </section>

@@ -13,8 +13,8 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      // await axios.post('http://localhost:3500/email', { name, email, subject, message });
-      // toast.success('Email sent successfully.');
+      await axios.post('http://localhost:3500/email', { name, email, subject, message });
+      toast.success('Email sent successfully.');
 
       await axios.post('http://localhost:3500/users', { name, email, subject, message });
 
@@ -51,9 +51,9 @@ const Contact = () => {
           </li>
         </ul>
         <section className='ContactDetails Two'>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="text-black">
             <p>
-              <label htmlFor='name'>Your Name<br /></label>
+              <label htmlFor='name' className='text-white'>Your Name<br /></label>
               <input
                 className='Input'
                 type='text'
@@ -62,7 +62,7 @@ const Contact = () => {
               />
             </p>
             <p>
-              <label htmlFor='email'>Your Email<br /></label>
+              <label htmlFor='email' className='text-white'>Your Email<br /></label>
               <input
                 className='Input'
                 type='email'
@@ -71,7 +71,7 @@ const Contact = () => {
               />
             </p>
             <p>
-              <label htmlFor='subject'>Subject<br /></label>
+              <label htmlFor='subject' className='text-white'>Subject<br /></label>
               <input
                 className='Input'
                 type='text'
@@ -80,7 +80,7 @@ const Contact = () => {
               />
             </p>
             <p>
-              <label htmlFor='message'>Message<br /></label>
+              <label htmlFor='message' className='text-white'>Message<br /></label>
               <textarea
                 name='message'
                 id='message'

@@ -13,10 +13,10 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:3500/email', { name, email, subject, message });
+      await axios.post('https://portfolio-vlon.onrender.com/email', { name, email, subject, message });
       toast.success('Email sent successfully.');
 
-      await axios.post('http://localhost:3500/users', { name, email, subject, message });
+      await axios.post('https://portfolio-vlon.onrender.com/users', { name, email, subject, message });
 
       // Clear the form fields
       setName('');

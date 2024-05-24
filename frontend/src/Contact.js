@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <article className='Contact'>
-      <h2 className='PageTitle Contact'>Contact</h2>
+      <h2 className='PageTitle Contact text-xl font-bold text'>Contact</h2>
       <article className='MyContact'>
         <ul className='ContactDetails One'>
           <li>

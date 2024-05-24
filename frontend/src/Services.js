@@ -5,7 +5,7 @@ import { FaLaptopCode, FaCode, FaServer, FaDatabase } from 'react-icons/fa'
 const Services = () => {
   return (    
     <article className='Services'>
-      <h2 className='PageTitle'>Services</h2>
+      <h2 className='PageTitle text-xl font-bold text'>Services</h2>
       <article className="MyServices">
         <section className='Product'>
           <div className="IconDiv">

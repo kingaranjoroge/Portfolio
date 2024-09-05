@@ -681,9 +681,9 @@ body {
 }
 
 @media screen and (max-width: 398px) {
-    .Home {
+    /* .Home {
         font-size: 0.7em;
-    }
+    } */
     .Product {
         width: 99%;
     }

@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (    
     <article className='About'>
-      <h2 className='PageTitle text-xl font-bold text'>About</h2>
+      <h2 className='PageTitle text-xl font-bold'>About</h2>
       <p>
         Welcome to my world of web development mastery! As a full-stack web developer, I craft immersive digital experiences using cutting-edge technologies. Harnessing the power of React.js, Next.js, and TailwindCSS, I sculpt dynamic and responsive front-end interfaces that captivate and engage users. 
         <br />
@@ -29,7 +29,7 @@ const About = () => {
           <li><strong>Freelance:</strong> Available</li>
         </ul>
       </section>
-      <h2 className='PageTitle Skills'>Skills</h2>
+      <h2 className='PageTitle Skills text-lg font-bold'>Skills</h2>
       <section className='SkillsBar'>        
         <div className='Bar'>
           <div className='Info'><span>HTML</span></div>

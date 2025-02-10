@@ -1,13 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.3aea5428.css",
-    "main.js": "/static/js/main.a1b19e43.js",
+    "main.css": "/static/css/main.82c531ce.css",
+    "main.js": "/static/js/main.109ef4a9.js",
+    "static/media/fetchfast-1.png": "/static/media/fetchfast-1.f2875dbd28e973d5542e.png",
+    "static/media/fetchfast-3.png": "/static/media/fetchfast-3.e8f0dd47326877292160.png",
+    "static/media/fetchfast-5.png": "/static/media/fetchfast-5.78e56313dbca97aeee4e.png",
+    "static/media/fetchfast-4.png": "/static/media/fetchfast-4.47ffb685e3cc19713861.png",
+    "static/media/fetchfast-2.png": "/static/media/fetchfast-2.5d6679f58211fcff94d1.png",
+    "static/media/buntu-1.png": "/static/media/buntu-1.042fb771b9726e54ca25.png",
+    "static/media/buntu-5.png": "/static/media/buntu-5.77a43e397bb40a78dcae.png",
+    "static/media/buntu-4.png": "/static/media/buntu-4.8abba95c6f1fcd8f0347.png",
+    "static/media/internconnect-2.png": "/static/media/internconnect-2.3bf2fe0046ef16d4b15a.png",
+    "static/media/buntu-3.png": "/static/media/buntu-3.10645539ceb4b1533ab2.png",
+    "static/media/internconnect-3.png": "/static/media/internconnect-3.21441018d1f3e6790deb.png",
+    "static/media/internconnect-5.png": "/static/media/internconnect-5.65060eef2c4cfb7a35f1.png",
+    "static/media/internconnect-1.png": "/static/media/internconnect-1.071c95845ce51122468a.png",
+    "static/media/buntu-2.png": "/static/media/buntu-2.4817768413fd900d4957.png",
+    "static/media/internconnect-4.png": "/static/media/internconnect-4.6fa08f1c00e18ed71a3b.png",
     "index.html": "/index.html",
-    "main.3aea5428.css.map": "/static/css/main.3aea5428.css.map",
-    "main.a1b19e43.js.map": "/static/js/main.a1b19e43.js.map"
+    "main.82c531ce.css.map": "/static/css/main.82c531ce.css.map",
+    "main.109ef4a9.js.map": "/static/js/main.109ef4a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aea5428.css",
-    "static/js/main.a1b19e43.js"
+    "static/css/main.82c531ce.css",
+    "static/js/main.109ef4a9.js"
   ]
 }

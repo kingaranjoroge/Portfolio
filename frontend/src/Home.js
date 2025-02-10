@@ -9,7 +9,7 @@ const Home = () => {
         <div className='flex flex-col items-center'>
           <h3 className='xs:text-xs sm:text-sm md:text-lg font-medium whitespace-nowrap'>Front End Developer (React.js, Next.js, TailwindCSS)</h3>
           <h3 className='xs:text-xs sm:text-sm md:text-lg font-medium whitespace-nowrap'>Back End Developer (Node.js, Express.js, Nest.js)</h3>
-          <h3 className='xs:text-xs sm:text-sm md:text-lg font-medium whitespace-nowrap'>Database (MongoDB)</h3>
+          <h3 className='xs:text-xs sm:text-sm md:text-lg font-medium whitespace-nowrap'>Database (MongoDB, PostgreSQL)</h3>
         </div>
       </section>
     </article>    
